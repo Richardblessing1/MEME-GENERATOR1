@@ -26,7 +26,7 @@ function drawMeme() {
   ctx.textAlign = align;
   ctx.fillStyle = 'white';
   ctx.strokeStyle = 'black';
-  ctx.lineWidth = fontSize / 15;
+  ctx.lineWidth = fontSize / 10;
 
   const topText = topInput.value.toUpperCase();
   const bottomText = bottomInput.value.toUpperCase();
